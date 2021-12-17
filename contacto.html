@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moreto</title>
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/10c6874b4a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Tipografía -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:ital,wght@0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/app.css" />
+    <!-- Script js -->
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <nav class="menu__container">
+      <a href="index.html" class="menu__logo">moreto</a>
+
+      <ul class="menu__items">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+
+      <span class="btn_menu">
+        <i class="fas fa-bars"></i>
+      </span>
+    </nav>
+
+    <!-- Contacto -->
+
+    <section class="contact__container">
+      <form action="https://formspree.io/f/mrgjgolq" method="POST" class="form">
+        <div class="form__content">
+          <h2 class="form__title">Contáctame</h2>
+          <input
+            type="text"
+            name="name"
+            class="form__input"
+            placeholder="Nombre: "
+          />
+          <input
+            type="email"
+            class="form__input"
+            placeholder="Email: "
+            name="_replyto"
+          />
+
+          <input
+            type="text"
+            name="message"
+            class="form__input form__input--message"
+            placeholder="Mensaje: "
+          />
+
+          <input type="submit" value="Enviar" class="form__cta" />
+        </div>
+      </form>
+
+      <div class="map_container">
+        <h3 class="map__title">Visítanos en:</h3>
+        <p class="map__text">Tepotzotlán Estado de México</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30046.75215032585!2d-99.2350336226979!3d19.719263900202154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d220247669dddb%3A0x87655b8b1ef289eb!2zVGVwb3R6b3Rsw6FuLCBNw6l4Lg!5e0!3m2!1ses-419!2smx!4v1639630924032!5m2!1ses-419!2smx"
+          width="300"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+
+    <footer class="footer__container footer__none">
+      <div class="footer__section">
+        <p class="footer__text">Moreto <i class="fas fa-heart"></i> 2022</p>
+
+        <div class="social__media">
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-pinterest-p"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Whatsapp -->
+    <a
+      href="https://api.whatsapp.com/send?phone=5547241887"
+      class="btn-wsp"
+      target="_blank"
+    >
+      <i class="fab fa-whatsapp icon-whatsapp"></i>
+    </a>
+  </body>
+</html>
