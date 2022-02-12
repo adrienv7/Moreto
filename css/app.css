@@ -659,7 +659,7 @@ iframe {
 /* Whatsapp */
 
 .btn-wsp {
-  display: none;
+  display: block;
 }
 
 @media (min-width: 992px) {
